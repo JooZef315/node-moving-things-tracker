@@ -94,7 +94,7 @@ declare module "node-moving-things-tracker" {
      * @param roundInt - Whether to round integer values in the result (default: true).
      * @returns Tracker data for this frame in JSON format.
      */
-    getJSONOfTrackedItems(roundInt?: boolean = true): TrackerOutputs[];
+    getJSONOfTrackedItems(roundInt?: boolean): TrackerOutputs[];
 
     /**
      * Retrieves debug information for the current frame in JSON format.
@@ -102,9 +102,7 @@ declare module "node-moving-things-tracker" {
      * @param {boolean} [roundInt=true] - Whether to round integer values in the output.
      * @returns {TrackerDebugOutputs[]} An array of debug outputs for tracked items in the current frame.
      */
-    getJSONDebugOfTrackedItems(
-      roundInt?: boolean = true
-    ): TrackerDebugOutputs[];
+    getJSONDebugOfTrackedItems(roundInt?: boolean): TrackerDebugOutputs[];
 
     /**
      * Retrieves tracked items in MOT (Multiple Object Tracking) format for a specific frame.

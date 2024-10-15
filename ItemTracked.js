@@ -1,4 +1,4 @@
-var uuidv4 = require("uuid/v4");
+const { v4: uuidv4 } = require("uuid");
 var computeBearingIn360 = require("./utils").computeBearingIn360;
 var computeVelocityVector = require("./utils").computeVelocityVector;
 
