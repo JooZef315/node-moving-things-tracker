@@ -4,6 +4,7 @@
   "description": "Tracker by detections in javascript for node.js / browsers",
   "url": "https://github.com/opendatacam/node-moving-things-tracker",
   "main": "main.js",
+  "types": "types.d.ts",
   "bin": {
     "node-moving-things-tracker": "main.js"
   },
